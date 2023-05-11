@@ -29,7 +29,6 @@ RSpec.describe Turn do
         expect(turn.feedback).to eq("Correct!")
 
         expect(turn2.feedback).to eq("Incorrect!")
-        require 'pry'; binding.pry
     end
 end
 
